@@ -3,6 +3,7 @@ module github.com/cosmos/gaia/v9
 go 1.18
 
 require (
+	github.com/comdex-official/comdex/app v1.0.0
 	github.com/cosmos/cosmos-sdk v0.45.15-ics
 	github.com/cosmos/go-bip39 v1.0.0
 	github.com/cosmos/ibc-go/v4 v4.2.0
@@ -312,6 +313,8 @@ replace (
 
 	// TODO: Simapp dependency, review removing when updating to SDK with backported update https://github.com/cosmos/cosmos-sdk/issues/13423
 	github.com/btcsuite/btcd => github.com/btcsuite/btcd v0.22.2 // indirect
+
+	github.com/comdex-official/comdex/app => github.com/monopauli/comdex/app v0.1.1-0.20230316144447-1d7a15b80e01
 
 	// dragonberry
 	github.com/confio/ics23/go => github.com/confio/ics23/go v0.9.0

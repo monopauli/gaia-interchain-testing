@@ -9,6 +9,7 @@ import (
 	icstestingutils "github.com/cosmos/interchain-security/testutil/ibc_testing"
 	"github.com/stretchr/testify/suite"
 
+	//comdexApp "github.com/comdex-official/comdex/app"
 	gaiaApp "github.com/cosmos/gaia/v9/app"
 	ibctesting "github.com/cosmos/interchain-security/legacy_ibc_testing/testing"
 	"github.com/tendermint/tendermint/libs/log"
